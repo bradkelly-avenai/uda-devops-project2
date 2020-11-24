@@ -5,9 +5,9 @@ This project is an example of building a CI/CD pipeline using GitHub, Azure Pipe
 The project uses a pre-developed python machine learning application which leverages the python web framework Flask. 
 
 ## Project Plan
-<TODO: Project Plan
 
-* A link to a Trello board for the project
+
+* [Trello Board](https://trello.com/b/vtFOlsZ3/udacity-project-2)
 * [Excel Project Plan](src/devop-project2-management.xlsx)
 
 ## Instructions
