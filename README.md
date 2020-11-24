@@ -8,7 +8,7 @@ The project uses a pre-developed python machine learning application which lever
 <TODO: Project Plan
 
 * A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* [Excel Project Plan](src/devop-project2-management.xlsx)
 
 ## Instructions
 
