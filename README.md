@@ -1,6 +1,8 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+This project is an example of building a CI/CD pipeline using GitHub, Azure Pipelines and Azure App service. The project uses a Github repository which contains scaffolding that will assist you in performing both Continuous Integration and Continuous Delivery. The project also enables linting, testing and installation byg using a Makefile, a requirements.txt and application code.
+
+The project uses a pre-developed python machine learning application which leverages the python web framework Flask. 
 
 ## Project Plan
 <TODO: Project Plan
