@@ -21,9 +21,14 @@ The project uses a pre-developed python machine learning application which lever
 
 ![Azure Cloud Shell](src/step1_azure_cloud_shell.jpeg?raw=true "Azure Cloud Shell")
 
+1. Step 2: Clone Repo
+
+![Azure Clone Repo](src/step2_azure_clone.jpeg?raw=true "Azure Clone Repo")
+
+
 * Project running on Azure App Service
 
-* Project cloned into Azure Cloud Shell
+
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
