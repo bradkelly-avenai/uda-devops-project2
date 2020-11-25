@@ -11,10 +11,13 @@ The project uses a pre-developed python machine learning application which lever
 * [Excel Project Plan](src/devop-project2-management.xlsx)
 
 ## Instructions
-
+### Architecture Plan
 ![Architecture Plan](src/architecture.jpeg?raw=true "Architecture Plan")
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+### Instructions
+1. Step 1: Launch Cloud Shell
+![Azure Portal](src/step1_azure_portal.jpeg?raw=true "Azure Portal")
+![Azure Cloud Shell](src/step1_azure_cloud_shell.jpeg?raw=true "Azure Cloud Shell")
 
 * Project running on Azure App Service
 
