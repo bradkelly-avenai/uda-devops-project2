@@ -16,7 +16,9 @@ The project uses a pre-developed python machine learning application which lever
 
 ### Instructions
 1. Step 1: Launch Cloud Shell
+
 ![Azure Portal](src/step1_azure_portal.jpeg?raw=true "Azure Portal")
+
 ![Azure Cloud Shell](src/step1_azure_cloud_shell.jpeg?raw=true "Azure Cloud Shell")
 
 * Project running on Azure App Service
