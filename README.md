@@ -15,15 +15,23 @@ The project uses a pre-developed python machine learning application which lever
 ![Architecture Plan](src/architecture.jpeg?raw=true "Architecture Plan")
 
 ### Instructions
-1. Step 1: Launch Cloud Shell
+Step 1: Launch Cloud Shell
 
 ![Azure Portal](src/step1_azure_portal.jpeg?raw=true "Azure Portal")
 
 ![Azure Cloud Shell](src/step1_azure_cloud_shell.jpeg?raw=true "Azure Cloud Shell")
 
-1. Step 2: Clone Repo
+Step 2: Clone Repo
 
 ![Azure Clone Repo](src/step2_azure_clone.jpeg?raw=true "Azure Clone Repo")
+
+Step 3
+
+Make a new repository for this exercise and commit the downloaded files. Make sure you enable Azure Pipelines either now, or when you later integrate Azure Pipelines. You can see what this looks like in the screenshot below. If you need help you can refer to the official steps from Microsoft.
+
+[Microsoft Documenation](https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml)
+
+![Integrate Azure Pipeline](src/step3_github_enable_az_pipe.jpeg?raw=true "Integrate Azure Pipeline")
 
 
 * Project running on Azure App Service
