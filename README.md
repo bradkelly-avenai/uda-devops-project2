@@ -34,17 +34,21 @@ Make a new repository for this exercise and commit the downloaded files. Make su
 ![Integrate Azure Pipeline](src/step3_github_enable_az_pipe.jpeg?raw=true "Integrate Azure Pipeline")
 
 
-Step 4: Setup a python virtual environment
+Step 4: Create Flask ML Service
 
 run the following commands to configure a python virtual environment. udacity-ml-azure can be replaced with a name of your choice
 
-'python3 -m venv ~/.udacity-ml-azure'
-'source ~/.udacity-ml-azure/bin/activate'
-
-
+    python3 -m venv ~/.udacity-ml-azure
+    source ~/.udacity-ml-azure/bin/activate
+    
 ![Python Virtual Environment](src/step4_python_virt.jpeg?raw=true "Python Virtual Environment")
 
-Step 5
+Run 'make install'
+
+    make install
+
+![Make Insall](src/step4_make_install.jpeg?raw=true "Make Install")
+
 * Project running on Azure App Service
 
 
