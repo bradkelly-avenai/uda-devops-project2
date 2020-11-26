@@ -47,7 +47,7 @@ Run 'make install'
 
     make install
 
-![Make Insall](src/step4_make_install.jpeg?raw=true "Make Install")
+![Make Install](src/step4_make_install.jpeg?raw=true "Make Install")
 
 * Project running on Azure App Service
 
