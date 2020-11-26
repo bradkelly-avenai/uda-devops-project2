@@ -39,6 +39,7 @@ Step 4: Setup a python virtual environment
 run the following commands to configure a python virtual environment. udacity-ml-azure can be replaced with a name of your choice
 
 python3 -m venv ~/.udacity-ml-azure
+
 source ~/.udacity-ml-azure/bin/activate
 
 
