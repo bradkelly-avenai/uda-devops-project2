@@ -51,14 +51,14 @@ Run 'make install'
 
 Create an app service and initially deploy your app by running the following command
 
-'az webapp up -n <replace-with-your-app-name>'
+    az webapp up -n <replace-with-your-app-name>
 
 
 Step 5:
 
 Change the line in make_predict_azure_app.sh to match the deployed prediction:
 
-'-X POST https://<yourappname>.azurewebsites.net:$PORT/predict'
+    -X POST https://<yourappname>.azurewebsites.net:$PORT/predict
 
 ![Make Prediction](src/step_5_make_prediction.jpeg?raw=true "Make Prediction")
 
