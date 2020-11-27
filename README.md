@@ -49,7 +49,9 @@ Run 'make install'
 
 ![Make Install](src/step4_make_install.jpeg?raw=true "Make Install")
 
-* Project running on Azure App Service
+Create an app service and initially deploy your app by running the following command
+
+'az webapp up -n <replace-with-your-app-name>'
 
 
 
