@@ -54,23 +54,16 @@ Create an app service and initially deploy your app by running the following com
 'az webapp up -n <replace-with-your-app-name>'
 
 
+Step 5:
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
+Change the line in make_predict_azure_app.sh to match the deployed prediction:
 
-* Output of a test run
+'-X POST https://<yourappname>.azurewebsites.net:$PORT/predict'
 
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+![Make Prediction](src/step_5_make_prediction.jpeg?raw=true "Make Prediction")
 
-* Running Azure App Service from Azure Pipelines automatic deployment
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
 
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
 
 * Output of streamed log files from deployed application
 
