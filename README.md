@@ -58,16 +58,19 @@ Step 5:
 
 Change the line in make_predict_azure_app.sh to match the deployed prediction:
 
-    -X POST https://<yourappname>.azurewebsites.net:$PORT/predict
+    -X POST https://<replace-with-your-app-name>.azurewebsites.net:$PORT/predict
 
 ![Make Prediction](src/step_5_make_prediction.jpeg?raw=true "Make Prediction")
 
 
 
 
-* Output of streamed log files from deployed application
+Review Output of streamed log files from deployed application
 
-> 
+    az webapp log tail --name <replace-with-your-app-name> --resource-group <replace-with-your-resource-group-name>
+
+![Log Files](src/streaming_web_logs.jpeg?raw=true "Log Files")
+
 
 ## Enhancements
 
