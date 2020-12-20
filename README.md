@@ -72,6 +72,8 @@ Review Output of streamed log files from deployed application
 ![Log Files](src/streaming_web_logs.jpeg?raw=true "Log Files")
 
 
+## Configure Azure
+![Step1_Azure](src/azure-step1-devops-dashboard.png?raw=true "Step1_Azure")
 ## Enhancements
 
 <TODO: A short description of how to improve the project in the future>
